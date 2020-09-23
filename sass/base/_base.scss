@@ -1,63 +1,23 @@
-html {
-    box-sizing: border-box;
-    // width: 100%;
-    // overflow-x: hidden;
+body {
+  font-family: $main-font;
 }
-
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+}
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    display: block;
-    text-decoration: none;
-}
-
-button {
-    cursor: pointer;
-    display: inline-block;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    object-fit: cover;
-}
-
-address {
-    font-style: normal;
-}
-
-body {
-    font-family: $main-font;
-    background-color: #ffffff;
-}
-
-h3 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: $primary-text-color;
-}
-
-.section__title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.15;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: $primary-text-color;
-    margin-bottom: 30px;
+  margin: 0px;
+  padding: 0px;
 }

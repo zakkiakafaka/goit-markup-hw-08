@@ -1,51 +1,59 @@
-.occupation {
-    background-color: $primary-font-color;
+@media screen and (max-width: 767px) {
+  .occupation {
     display: none;
-
-    @media screen and (min-width: 1600px){
-        display: flex;
-    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .occupation {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+.occupation {
+  display: flex;
+  padding-top: 47px;
+  padding-bottom: 94px;
 }
 
-.occupation-head {
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.17;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: 0.03em;
+.examples {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
-
-.occupation-list {
-    display: flex;
-    padding-bottom: 94px;
-}
-
-.occupation-list-item {
-    position: relative;
-
-    &:not(:last-child) {
+.examples-item {
+  &:not(:last-child) {
     margin-right: 30px;
-    }
+  }
+}
+.examples-list {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
 }
 
-.occupation-list-item h3 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: rgba(47, 48, 58, 0.8);
-    font-style: normal;
-    letter-spacing: 0.03em;
-    color: $tertiary-text-color;
+.examples-box {
+  position: relative;
+}
+.title-desk-position,
+.title-mobile-position,
+.title-design-position {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  background: rgba(47, 48, 58, 0.8);
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 27px;
+  color: #ffffff;
+}
 }

@@ -1,10 +1,11 @@
 @import "./utils/variables";
 @import "./base/base";
-@import "./utils/visually-hidden";
+@import "./utils/vissualy-hidden";
+@import "./components/title";
 @import "./components/container";
-@import "./components/modal-window";
-@import "./components/social-list";
+@import "./components/modal-form";
 @import "./components/header";
+@import "./components/social-list";
 @import "./layout/hero";
 @import "./layout/features";
 @import "./layout/occupation";
